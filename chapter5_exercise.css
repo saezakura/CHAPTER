@@ -6,29 +6,22 @@
 
 header {
   text-align: center;
+  width:100%;
+  padding:20px 0;
 }
 
-.heading {
-  margin: 20px auto;
-}
-
-.main-visual {
+.list {
+  padding:15px 0;
+  margin:0 auto;
+  text-align: center;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
 
-.list {
-  display: flex;
-  list-style: none;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
-  justify-content: center;
-}
-
 .list-item {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin:0 20px;
+  list-style: none;
+  display: inline-block;
 }
 
 .main {
