@@ -38,18 +38,12 @@
   background-color: yellow;
 }
 
-.categories-box:nth-child(1) {
-  background-color: orange;
-}
-
+.categories-box:nth-child(1),
 .categories-box:nth-child(5) {
   background-color: orange;
 }
 
-.categories-box:nth-child(3) {
-  margin-right: 0;
-}
-
+.categories-box:nth-child(3),
 .categories-box:nth-child(6) {
   margin-right: 0;
 }
